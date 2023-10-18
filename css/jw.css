@@ -1,17 +1,52 @@
-@charset "utf-8" ;
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap');
-
 /* header */
 .header {
     width: 100%;
     height: 50px;
-    background: beige;
+    display: flex;
 }
+.header h1{
+    width: 134px;
+    height: 29px;
+    font-weight: bold;
+    font-size: 21px;
+    position: relative;
+    left: 394px;
+    top: 15px;
+    color: rgb(94, 93, 93);
+}
+.logo {
+    width: 103px;
+    height: 80px;
+    position: relative;
+    left: 382px;
+}
+.header ul{
+    width: 240px;
+    height: 50px;
+    position: relative;
+    display: flex;
+    left: 1000px;
+}
+.header ul li{
+    line-height: 50px;
+}
+.header li img{
+    width: 20px;
+    height: 20px;
+    line-height: 60px;
+}
+
+
+
+/* nav */
 .nav {
     width: 100%;
     height: 44px;
     background: lightblue;
 }
+
+
+
 /* main */
 main{
     width: 100%;
